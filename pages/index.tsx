@@ -2,6 +2,8 @@ import Image from "next/image";
 import localFont from "next/font/local";
 import clinic from "@/public/Screenshot 2023-10-18 173328.png"
 import next0 from "@/public/Screenshot 2024-10-17 190514.png"
+import jpeg from "@/public/jpeg.png"
+import png from "@/public/png.png"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,6 +33,18 @@ export default function Home() {
 <Image
           className="dark:invert"
           src={next0}
+          alt="Next.js logo"
+         
+        />
+        <Image
+          className="dark:invert"
+          src={png}
+          alt="Next.js logo"
+         
+        />
+         <Image
+          className="dark:invert"
+          src={jpeg}
           alt="Next.js logo"
          
         />
