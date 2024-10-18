@@ -24,7 +24,8 @@ export default function Home() {
           className="dark:invert"
           src={clinic}
           alt="Next.js logo"
-         
+          width={800}
+          height={500}
         />
 
 <Image
